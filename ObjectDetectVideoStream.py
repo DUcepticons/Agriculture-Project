@@ -9,7 +9,7 @@ import cv2
 import tensorflow as tf
 
 CATEGORIES = ["Dog", "Cat"]
-model = tf.keras.models.load_model("64x3-CNN (2).model")
+model = tf.keras.models.load_model("new_model.model")
 
 def prepare(file):
     IMG_SIZE = 50  # 50 in txt-based
